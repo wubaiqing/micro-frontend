@@ -1,0 +1,119 @@
+body {
+  height: 100%;
+  font-size: 12px;
+  font-family: "Microsoft YaHei", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti;
+  font-variant: tabular-nums;
+  line-height: 1.5;
+}
+#root, body, html {
+    height: 100%;
+    font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",Arial,sans-serif;
+    font-size: 12px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+.mt-28 {
+  margin-top: 30px;
+}
+.mt-24 {
+  margin-top: 24px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.ml-10 {
+  margin-left: 10px;
+}
+
+.fa-nav-icon {
+  vertical-align: baseline;
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+}
+
+.el-table {
+  font-size: 12px;
+}
+
+.el-loading-mask {
+  z-index: 1000;
+}
+.col-setting {
+  float: right;
+  padding-top: 8px;
+  margin-top: 3px;
+  margin-right: -2px;
+  cursor:pointer;
+}
+
+.xy-v2-arrow {
+  font-size: 6px;
+  vertical-align: baseline;
+}
+
+.xy-v2-kq {
+  color: #20A0FF;
+}
+
+.xy-v2-yc {
+  color: #20A0FF;
+}
+
+.xy-zh1 {
+  color: #C0CCDA;
+  font-size: 18px;
+  vertical-align: sub;
+}
+.qa {
+  text-decoration: none;
+}
+
+.el-icon-setting {
+  color:  #20A0FF;
+}
+
+.xy-v2-setting {
+  color: #20A0FF;
+  font-size: 16px;
+}
+
+.el-icon-info, .el-icon-question {
+  font-size: 14px;
+  padding-top: 8px;
+  color: #20a0ff;
+}
+
+.el-table thead {
+  color:#303133;
+}
+.el-table thead th {
+  font-weight:400;
+  font-size: 14px;
+}
+
+.el-table__row td {
+  font-weight:400;
+  font-size: 13px;
+  color:#606266
+}
+.el-table--border td, .el-table--border th, .el-table__body-wrapper .el-table--border.is-scrolling-left~.el-table__fixed {
+  border-right: 0;
+}
+
+.el-form-item.is-success .el-input__inner, .el-form-item.is-success .el-input__inner:focus, .el-form-item.is-success .el-textarea__inner, .el-form-item.is-success .el-textarea__inner:focus {
+  border-color: #dcdfe6;
+}
+
+.custom-confirm {
+  width: 200px;
+}
+
+.custom-message-box {
+  width: 456px;
+}
+.c20a0ff {
+  color: #20a0ff !important;
+}

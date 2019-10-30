@@ -1,0 +1,60 @@
+{
+  "name": "@xiyun-international/element-ui-template",
+  "version": "3.10.1",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "vue-cli-service serve --open --copy --fix",
+    "build": "yarn lint && vue-cli-service build",
+    "lint": "vue-cli-service lint --mode production",
+    "commit": "git-cz"
+  },
+  "dependencies": {
+    "@xiyun/element-ui": "^1.0.10",
+    "@xiyun/utils": "^1.1.7",
+    "element-ui": "^2.7.2",
+    "normalize.css": "^8.0.1",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.2.1",
+    "@commitlint/config-conventional": "^7.1.2",
+    "@vue/cli": "^3.0.5",
+    "@vue/cli-plugin-babel": "^3.0.1",
+    "@vue/cli-plugin-eslint": "^3.0.1",
+    "@vue/cli-plugin-unit-jest": "^3.2.0",
+    "@vue/cli-service": "^3.0.1",
+    "@vue/eslint-config-airbnb": "^3.0.3",
+    "@vue/test-utils": "^1.0.0-beta.20",
+    "@xiyun/vue-route-webpack-plugin": "^1.1.8",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-module-resolver": "^3.1.1",
+    "eslint-config-prettier": "^3.3.0",
+    "lint-staged": "^7.2.2",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.14.2",
+    "sass-loader": "^7.1.0",
+    "standard-version": "^4.4.0",
+    "vue-template-compiler": "^2.5.17",
+    "vuepress": "^0.14.4"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged",
+    "commit-msg": "commitlint -E GIT_PARAMS"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "vue-cli-service lint --mode production",
+      "git add"
+    ],
+    "*.vue": [
+      "prettier --write",
+      "vue-cli-service lint --mode production",
+      "git add"
+    ]
+  }
+}
