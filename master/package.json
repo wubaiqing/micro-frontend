@@ -38,7 +38,7 @@
     "node-sass": "^4.11.0",
     "prettier": "^1.14.2",
     "sass-loader": "^7.1.0",
-    "standard-version": "^4.4.0",
+    "standard-version": "^8.0.1",
     "vue-template-compiler": "^2.5.17",
     "vuepress": "^0.14.4"
   },
